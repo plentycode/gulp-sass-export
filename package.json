@@ -1,0 +1,33 @@
+{
+  "name": "gulp-sass-export",
+  "version": "0.0.1",
+  "description": "gulp plugin for sass-export",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "Sass Utilities",
+    "Scss",
+    "Sass Annotations",
+    "Sass to JS",
+    "Scss Json",
+    "Sass to Json",
+    "sass variables exporting",
+    "Node Sass"
+  ],
+  "author": {
+    "name": "Carlos I Mercado",
+    "email": "civan.cim@gmail.com"
+  },
+  "dependencies": {
+    "sass-export": "^0.1.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
