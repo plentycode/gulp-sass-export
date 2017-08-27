@@ -1,6 +1,6 @@
 {
   "name": "gulp-sass-export",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gulp plugin for sass-export",
   "main": "index.js",
   "files": [
@@ -26,7 +26,7 @@
     "url": "https://github.com/plentycode/gulp-sass-export.git"
   },
   "dependencies": {
-    "sass-export": "^0.1.2",
+    "sass-export": "^0.1.6",
     "through2": "^2.0.3"
   },
   "devDependencies": {},

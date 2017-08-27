@@ -30,8 +30,9 @@ gulp.task('default', ['sass-export']);
 ```
 
 ### Options:
- * **fileName**: output file name. Default: 'sass-exported.json'
- * **dependencies**:  <array> list of folders where your source files should look for the imports. default: []
+ * **fileName**: {String} output file name. Default: 'sass-exported.json'
+ * **dependencies**:  {array} list of folders where your source files should look for the imports. default: []
+ * **type**: {String} set it to 'array' for an array typed output, default 'structured'
 
 [sass-export]:  <https://github.com/plentycode/sass-export>
 

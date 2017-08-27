@@ -9,7 +9,8 @@ module.exports = function (userOptions) {
 
   let options = {
     fileName: userOptions.fileName || 'sass-exported.json',
-    includePaths: userOptions.dependencies || userOptions.includePaths
+    includePaths: userOptions.dependencies || userOptions.includePaths,
+    type: userOptions.type
   }
 
   // Create a stream to take in images
